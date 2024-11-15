@@ -8,7 +8,7 @@ export default function HomeScreen() {
     
   return (
     <View className="flex-1 relative">
-      <StatusBar barStyle="light" />
+      <StatusBar barStyle="dark" />
       
         <Image blurRadius={50} 
           source={require('../assets/images/bg.png')} 
